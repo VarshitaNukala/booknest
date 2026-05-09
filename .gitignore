@@ -1,0 +1,71 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+application-local.yml
+application-dev.yml
+application-prod.yml
+*.secret
+*.key
+*.pem
+*.crt
+secrets.yml
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Application logs
+logs/
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Application specific
+temp/
+uploads/
+screenshots/
+
+# Redis
+dump.rdb
+
+# Local configuration
+config/local/
