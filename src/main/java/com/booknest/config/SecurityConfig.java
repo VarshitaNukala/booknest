@@ -38,8 +38,7 @@ public class SecurityConfig {
                                 "/favicon.ico",
                                 "/error",
                                 "/api/v1/payments/webhook",
-                                "/",
-                                "/index.html"
+                                "/"
                         ).permitAll()
                         .anyRequest().authenticated()
                 )
