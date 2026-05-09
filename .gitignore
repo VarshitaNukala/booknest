@@ -45,10 +45,7 @@ application-prod.yml
 *.crt
 secrets.yml
 
-# Docker
-Dockerfile
-.dockerignore
-docker-compose*.yml
+
 
 # Application logs
 logs/
